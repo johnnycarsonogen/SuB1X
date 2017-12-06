@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sub1x
+Comment=Sub1x P2P Cryptocurrency
+Comment[fr]=Sub1x, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Sub1x, eşten eşe kriptografik sanal para birimi
+Exec=sub1x-qt %u
+Terminal=false
+Type=Application
+Icon=sub1x128
+MimeType=x-scheme-handler/sub1x;
+Categories=Office;Finance;

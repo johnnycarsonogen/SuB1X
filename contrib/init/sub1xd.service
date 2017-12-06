@@ -1,0 +1,26 @@
+[Unit]
+Description=SUB1X's distributed currency daemon
+After=network.target
+
+[Service]
+User=sub1x
+Group=sub1x
+
+Type=forking
+PIDFile=/var/lib/sub1xd/sub1xd.pid
+
+ExecStart=/usr/bin/sub1xd -daemon -pid=/var/lib/sub1xd/sub1xd.pid \
+          -conf=/etc/sub1x/sub1x.conf -datadir=/var/lib/sub1xd
+
+ExecStop=-/usr/bin/sub1x-cli -conf=/etc/sub1x/sub1x.conf \
+         -datadir=/var/lib/sub1xd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

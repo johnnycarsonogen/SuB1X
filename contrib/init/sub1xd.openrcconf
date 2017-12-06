@@ -1,0 +1,26 @@
+# /etc/conf.d/sub1xd: config file for /etc/init.d/sub1xd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/sub1x/sub1x.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/sub1xd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sub1xd.pid"
+
+# Where to write sub1xd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sub1xd"
+
+# User and group to own sub1xd process
+#BITCOIND_USER="sub1x"
+#BITCOIND_GROUP="sub1x"
+
+# Path to sub1xd executable
+#BITCOIND_BIN="/usr/bin/sub1xd"
+
+# Nice value to run sub1xd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
