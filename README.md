@@ -8,7 +8,8 @@ SUB1X is a cutting edge cryptocurrency, with many features not available in most
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _FastSub1x_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with collateral of 25K SUB1X
+  with collateral of 20 SUB1X.
+- There will be just 150 Masternodes available.
 
 More information at [sub1x.io](http://www.sub1x.io)
 
@@ -36,17 +37,17 @@ More information at [sub1x.io](http://www.sub1x.io)
 
 ### Staking Methods
 <table>
-<tr><td>Masternodes</td><td>Yes - 25k Sub1x Required</td></tr>
+<tr><td>Masternodes</td><td>Yes - 20 Sub1x Required</td></tr>
 <tr><td>Wallet Staking</td><td>Yes - 1 to infinite Sub1x</td></tr>
 </table>
 
 ### Staking Reward Details
 <table>
-<tr><td>Sub1x Produced</td><td>60 Sub1x Per Block</td></tr>
+<tr><td>Sub1x Produced</td><td>0.01 Sub1x Per Block</td></tr>
 <tr><td>Amount Designated for Rewards</td><td>100% of Sub1x produced goes to Staking Rewards</td></tr>
 <tr><td>Rewards Algorithm</td><td>Teeter Totter Based Targeting System</td></tr>
 <tr><td>Amount of Rewards Per Block</td><td>2 Rewards, 1 for Masternodes, 1 for Wallet Staking</td></tr>
-<tr><td>Coin Maturity to Stake</td><td>150 Blocks</td></tr>
+<tr><td>Coin Maturity to Stake</td><td>50 Blocks</td></tr>
 
 
 </table>
