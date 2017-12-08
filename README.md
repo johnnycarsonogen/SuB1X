@@ -15,19 +15,19 @@ More information at [sub1x.io](http://www.sub1x.io)
 
 ### Coin Specs
 <table>
-<tr><td>Ticker Symbol</td><td>Sub1x</td></tr>
+<tr><td>Ticker Symbol</td><td>SUB1X</td></tr>
 <tr><td>Algorithm</td><td>Quark</td></tr>
-<tr><td>Type</td><td>PoW - PoS Hybrid*</td></tr>
-<tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Type</td><td>PoW / PoS Hybrid</td></tr>
+<tr><td>Block Time</td><td>6 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS)</td><td>94.5Mil SUB1X</td></tr>
-<tr><td>Premine/Initial Supply</td><td>78Mil SUB1X*</td></tr>
+<tr><td>Max Coin Supply (PoS)</td><td>?Mil SUB1X</td></tr>
+<tr><td>Premine/Initial Supply</td><td>10,000 SUB1X*</td></tr>
 <tr><td>Sub1x Created Per block</td><td>60 SUB1X*</td></tr>
 </table>
 
 *First 1000 Blocks PoW. 1001 - Infinite Blocks PoS only.
 
-**78Mil Sub1x initial coins Premined to Swap over prior SUB1X Block Chain.
+**10,000 SUB1X initial coins Premined to Swap over prior SUB1X Block Chain.
 
 ### PoS/PoW Block Details
 <table>
