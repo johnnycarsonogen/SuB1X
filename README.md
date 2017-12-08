@@ -20,7 +20,7 @@ More information at [sub1x.io](http://www.sub1x.io)
 <tr><td>Type</td><td>PoW / PoS Hybrid</td></tr>
 <tr><td>Block Time</td><td>6 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoS)</td><td>?Mil SUB1X</td></tr>
+<tr><td>Max Coin Supply (PoS)</td><td>? SUB1X</td></tr>
 <tr><td>Premine/Initial Supply</td><td>10,000 SUB1X*</td></tr>
 <tr><td>Sub1x Created Per block</td><td>60 SUB1X*</td></tr>
 </table>
