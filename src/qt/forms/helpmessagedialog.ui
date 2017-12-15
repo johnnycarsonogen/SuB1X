@@ -20,7 +20,7 @@
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <item>
-    <widget class="QLabel" name="graphic">
+    <widget class="QLabel" name="graphic">sender
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
        <horstretch>0</horstretch>
@@ -101,7 +101,7 @@
  </resources>
  <connections>
   <connection>
-   <sub1xer>okButton</sub1xer>
+   <sender>okButton</sender>
    <signal>accepted()</signal>
    <receiver>HelpMessageDialog</receiver>
    <slot>accept()</slot>
@@ -117,7 +117,7 @@
    </hints>
   </connection>
   <connection>
-   <sub1xer>okButton</sub1xer>
+   <sender>okButton</sender>
    <signal>rejected()</signal>
    <receiver>HelpMessageDialog</receiver>
    <slot>reject()</slot>

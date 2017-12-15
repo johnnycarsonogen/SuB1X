@@ -39,7 +39,7 @@
  <resources/>
  <connections>
   <connection>
-   <sub1xer>buttonBox</sub1xer>
+   <sender>buttonBox</sender>
    <signal>accepted()</signal>
    <receiver>TransactionDescDialog</receiver>
    <slot>accept()</slot>
@@ -55,7 +55,7 @@
    </hints>
   </connection>
   <connection>
-   <sub1xer>buttonBox</sub1xer>
+   <sender>buttonBox</sender>
    <signal>rejected()</signal>
    <receiver>TransactionDescDialog</receiver>
    <slot>reject()</slot>

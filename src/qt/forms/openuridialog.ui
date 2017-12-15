@@ -83,7 +83,7 @@
  <resources/>
  <connections>
   <connection>
-   <sub1xer>buttonBox</sub1xer>
+   <sender>buttonBox</sender>
    <signal>accepted()</signal>
    <receiver>OpenURIDialog</receiver>
    <slot>accept()</slot>
@@ -99,7 +99,7 @@
    </hints>
   </connection>
   <connection>
-   <sub1xer>buttonBox</sub1xer>
+   <sender>buttonBox</sender>
    <signal>rejected()</signal>
    <receiver>OpenURIDialog</receiver>
    <slot>reject()</slot>
