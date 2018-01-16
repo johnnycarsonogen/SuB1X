@@ -417,49 +417,16 @@ public:
         hashGenesisBlock = genesis.GetHash();
 
 
-const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
-
-          //if (true && genesis.GetHash() != hashGenesisBlock)
-        if(false)
-        {
-            printf("Searching for genesis block...\n");
-            // This will figure out a valid hash and Nonce if you're
-            // creating a different genesis block:
-            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-            uint256 thash;
-            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
-
-            while(true)
-            {
-                scrypt_1024_1_1_256_sp_generic(BEGIN(genesis.nVersion), BEGIN(thash), scratchpad);
-                if (thash <= hashTarget)
-                    break;
-                if ((genesis.nNonce & 0xFFF) == 0)
-                {
-                    printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-                }
-                ++genesis.nNonce;
-                if (genesis.nNonce == 0)
-                {
-                    printf("NONCE WRAPPED, incrementing time\n");
-                    ++genesis.nTime;
-                }
-            }
-            printf("block.nTime = %u \n", genesis.nTime);
-            printf("block.nNonce = %u \n", genesis.nNonce);
-            printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-
-            }
-
         assert(hashGenesisBlock == uint256("0xb6db5e39e8cd703e75926ad58076ff0e76179c067ab2cc5136f7061cac714278"));
         //assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
-        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "sub1x.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
-        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "sub1x.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
-        //vSeeds.push_back(CDNSSeedData("coin-server.com", "coin-server.com"));         // Single node address
-        //vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net")); // Single node address
-        //vSeeds.push_back(CDNSSeedData("142.91.104.115", "142.91.104.115"));           // Single node address
-	vSeeds.push_back(CDNSSeedData("198.55.107.142", "198.55.107.142"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("207.246.72.251", "207.246.72.251"));     // Primary DNS Seeder 
+        vSeeds.push_back(CDNSSeedData("209.250.241.176", "209.250.241.176"));    // Secondary DNS Seeder 
+        vSeeds.push_back(CDNSSeedData("209.250.243.131", "209.250.243.131"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("45.77.239.108", "45.77.239.108")); // Single node address
+        vSeeds.push_back(CDNSSeedData("107.191.44.102", "107.191.44.102"));           // Single node address
+		vSeeds.push_back(CDNSSeedData("198.55.107.142", "198.55.107.142"));           // Single node address
+		vSeeds.push_back(CDNSSeedData("45.61.158.235", "45.61.158.235"));           // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
