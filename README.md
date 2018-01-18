@@ -56,7 +56,7 @@ More information at [sub1x.io](http://www.sub1x.io)
 
 Block 1000 to Infinite:
 
-80% to Masternode per block (0.08 - Including Fees)
+80% to Masternode per block (0.008 - Including Fees)
 
-20% to Stake per block (0.02 - Excluding Fees)
+20% to Stake per block (0.002 - Excluding Fees)
 
