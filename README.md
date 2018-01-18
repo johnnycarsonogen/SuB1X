@@ -18,11 +18,11 @@ More information at [sub1x.io](http://www.sub1x.io)
 <tr><td>Ticker Symbol</td><td>SUB1X</td></tr>
 <tr><td>Algorithm</td><td>Quark</td></tr>
 <tr><td>Type</td><td>PoW / PoS Hybrid</td></tr>
-<tr><td>Block Time</td><td>6 Seconds</td></tr>
+<tr><td>Block Target Time</td><td>6 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Max Coin Supply (PoS)</td><td>? SUB1X</td></tr>
 <tr><td>Premine/Initial Supply</td><td>10,000 SUB1X*</td></tr>
-<tr><td>Sub1x Created Per block</td><td>60 SUB1X*</td></tr>
+<tr><td>Sub1x Created Per block</td><td>0.01 SUB1X*</td></tr>
 </table>
 
 *First 1000 Blocks PoW. 1001 - Infinite Blocks PoS only.
@@ -54,14 +54,9 @@ More information at [sub1x.io](http://www.sub1x.io)
 
 ### Rewards Amounts
 
-Block 1000 to 172000:
+Block 1000 to Infinite:
 
-50/10 When Wallet Staking has dominance over network.*
+80% to Masternode per block (0.08 - Including Fees)
 
-48/12 When Master nodes have dominance over network.**
-
-
-*50 Sub1x to Masternodes that win block, 10 Sub1x to Wallet Stakers that win block.
-
-**48 Sub1x to Wallet Staker that win block, 12 Sub1x to Masternodes that win block.
+20% to Stake per block (0.02 - Excluding Fees)
 
