@@ -9,7 +9,6 @@ SUB1X is a cutting edge cryptocurrency, with many features not available in most
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
   with collateral of 20 SUB1X.
-- There will be just 150 Masternodes available.
 
 More information at [sub1x.io](http://www.sub1x.io)
 
